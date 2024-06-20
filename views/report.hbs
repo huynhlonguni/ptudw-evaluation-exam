@@ -1,0 +1,86 @@
+<div class="grid grid-cols-2 gap-4 mx-2">
+	{{#each reports}}
+	<div class="bg-white shadow-lg rounded-lg py-4 px-6 w-full flex flex-col gap-3">
+		<div>
+			<div class="font-bold">
+				#
+			</div>
+			<div>
+				{{id}}
+			</div>
+		</div>
+
+		<div>
+			<div class="font-bold">
+				Address
+			</div>
+			<div>
+				{{address}}
+			</div>
+		</div>
+
+		<div>
+			<div class="font-bold">
+				Long
+			</div>
+			<div>
+				{{long}}
+			</div>
+		</div>
+
+		<div>
+			<div class="font-bold">
+				Lat
+			</div>
+			<div>
+				{{lat}}
+			</div>
+		</div>
+
+		<div>
+			<div class="font-bold">
+				Report Date
+			</div>
+			<div>
+				{{report_date}}
+			</div>
+		</div>
+
+		<div>
+			<div class="font-bold">
+				Content
+			</div>
+			<div>
+				{{content}}
+			</div>
+		</div>
+
+		<div>
+			<div class="font-bold">
+				Email
+			</div>
+			<div>
+				{{email}}
+			</div>
+		</div>
+
+		<div>
+			<div class="font-bold">
+				Phone
+			</div>
+			<div>
+				{{phone}}
+			</div>
+		</div>
+
+		<div>
+			<div class="font-bold">
+				State
+			</div>
+			<div>
+				{{state}}
+			</div>
+		</div>
+	</div>
+	{{/each}}
+</div>
